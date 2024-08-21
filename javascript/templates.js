@@ -220,7 +220,32 @@ export const aboutTemplate = `
 `
 
 export const portfolioTemplate = `
+    <section class="portfolio">
+        <div class="portfolio-content">
+            <h1>My <span>Projects</span></h1>
+            <div class="project-display">
+                <div class="project">
+                    <h2 class="gradient-text">Neutron</h2>
+                    <button class="read-more-btn">Read more</button>
+                    <button class="repository-btn">Repository<i class="fa-brands fa-github"></i></button>
+                </div>
+                <div class="project empty">
+                    <h2>Empty</h2>
+                </div>
+                <div class="project empty">
+                    <h2>Empty</h2>
+                </div>
+                <div class="project empty">
+                    <h2>Empty</h2>
+                </div>
+            </div>
 
+            <div class="project-container">
+                <h2>Neutron</h2>
+            </div>
+        </div>
+        
+    </section>
 `
 
 export const contactTemplate = `

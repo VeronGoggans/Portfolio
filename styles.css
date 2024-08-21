@@ -18,12 +18,20 @@
     --bold: #414452
 }
 
-.about::-webkit-scrollbar {
+.gradient-text {
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(45deg, #5c7fdd, #ca58ff); 
+}
+
+.about::-webkit-scrollbar,
+.portfolio::-webkit-scrollbar {
     background-color: transparent;
     width: 5px;
 }
 
-.about::-webkit-scrollbar-thumb {
+.about::-webkit-scrollbar-thumb,
+.portfolio::-webkit-scrollbar-thumb {
     background-color: #ddd;
     border-radius: 5px;
 }
