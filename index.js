@@ -4,6 +4,7 @@ const header = document.querySelector('header')
 const navbar = document.querySelector('nav');
 const logo = header.querySelector('.logo');
 const navLinks = navbar.querySelectorAll('a');
+const homeLink  =navbar.querySelector('a');
 const main = document.querySelector('main');
 
 
@@ -17,8 +18,8 @@ navLinks.forEach(link => {
         const anchor = event.target.closest('a[data-view]')
         if (anchor) {
             loadTemplate(
-                event.target, 
-                anchor.getAttribute('data-view')
+                anchor.getAttribute('data-view'),
+                event.target
             );
         }
     }
@@ -26,7 +27,7 @@ navLinks.forEach(link => {
 
 
 
-function loadTemplate(navLink, templateName) {
+function loadTemplate(templateName, navLink = undefined) {
     // Setting the template
     main.innerHTML = templates[templateName];
 
@@ -34,7 +35,11 @@ function loadTemplate(navLink, templateName) {
     navLinks.forEach(nav => nav.classList.remove('active'));
 
     // Add the active class to the clicked anchor tag
-    navLink.classList.add('active')
+    if (navLink !== undefined) {
+        navLink.classList.add('active')
+    } else {
+        homeLink.classList.add('active')
+    }
 }
 
 main.innerHTML = templates['home']
