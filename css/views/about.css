@@ -54,12 +54,14 @@
 }
 
 .about-content .skills-heading,
-.about-content .journey-heading {
+.about-content .journey-heading,
+.about-content .experience-heading {
     margin-top: 50px;
 }
 
 .about-content .skills-heading span,
-.about-content .journey-heading span {
+.about-content .journey-heading span,
+.about-content .experience-heading span {
     color: var(--primary-text-color);
 }
 
@@ -280,7 +282,21 @@
         left: -15px;
 
     }
+}
 
+/*EXPERIENCE CONTAINER CODE BELOW*/
 
-    
+.experience-container {
+    position: relative;
+    padding: 50px 20px;
+}
+
+.experience-container img {
+    width: 50px;
+    margin: 0 10px;
+    transition: .5s;
+}
+
+.experience-container img:hover {
+    transform: translateY(-10px);
 }
