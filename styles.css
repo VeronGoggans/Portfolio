@@ -15,6 +15,7 @@
     --primary-text-color: #5c7fdd;
     --secondary-text-color: rgb(100, 113, 158);
     --soft-black: #2d2e36;
+    --paragraph: #67697d;
     --bold: #414452
 }
 
@@ -25,13 +26,15 @@
 }
 
 .about::-webkit-scrollbar,
-.portfolio::-webkit-scrollbar {
+.portfolio::-webkit-scrollbar,
+.contact::-webkit-scrollbar {
     background-color: transparent;
     width: 5px;
 }
 
 .about::-webkit-scrollbar-thumb,
-.portfolio::-webkit-scrollbar-thumb {
+.portfolio::-webkit-scrollbar-thumb,
+.contact::-webkit-scrollbar-thumb {
     background-color: #ddd;
     border-radius: 5px;
 }

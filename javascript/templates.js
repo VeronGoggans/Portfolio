@@ -3,7 +3,7 @@ export const HelloWorld = 'Hello world'
 export const homeTemplate = `
     <section class="home">
         <div class="home-content">
-            <h1>Hi, I'm Veron Goggans</h1>
+            <h1>Hi, I'm Verôn Goggans</h1>
             <h3>Backend Developer</h3>
             <p>Currently studying at Hogeschool Utrecht 
             for my Bachelors Degree Backend Developer</p>
@@ -45,7 +45,7 @@ export const aboutTemplate = `
                     </div>
 
                     <div class="container left-container">
-                        <img src="https://camo.githubusercontent.com/491e3e316785d254f8709adfeb919a68582e0bef2946e15195e1f66de5e98b10/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f737072696e67696f2f737072696e67696f2d69636f6e2e737667">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/spring/spring-original.svg">
                         <div class="text-box">
                             <h2>Springboot</h2>
                             <small>2022 - Now</small>
@@ -55,7 +55,7 @@ export const aboutTemplate = `
                     </div>
 
                     <div class="container right-container">
-                        <img src="https://camo.githubusercontent.com/a13ca5b988ada41839ebe4f88455e63419a1b56fcb5eda207794cd1649a61d2c/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/postman/postman-original.svg">
                         <div class="text-box">
                             <h2>Postman</h2>
                             <small>2022 - Now</small>
@@ -75,7 +75,7 @@ export const aboutTemplate = `
                     </div>
 
                     <div class="container right-container">
-                        <img src="https://camo.githubusercontent.com/fcafa5ebc1f5f789ae7d012a3ecd8fe7bda49516591caf7c37698f764165d880/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/git/git-original.svg">
                         <div class="text-box">
                             <h2>Git</h2>
                             <small>2022 - Now</small>
@@ -133,7 +133,7 @@ export const aboutTemplate = `
                     </div>
 
                     <div class="container left-container">
-                        <img src="https://camo.githubusercontent.com/f32e9cca1f0df0138a8f536217daa54ad21b6913642422f32e3c5c623f3a06b9/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/figma/figma-original.svg">
                         <div class="text-box">
                             <h2>Figma</h2>
                             <small>2023 - Now</small>
@@ -207,12 +207,12 @@ export const aboutTemplate = `
                 <h3 class="experience-heading">Experience working <span>with</span></h3>
 
                 <div class="experience-container">
-                    <img src="https://camo.githubusercontent.com/491e3e316785d254f8709adfeb919a68582e0bef2946e15195e1f66de5e98b10/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f737072696e67696f2f737072696e67696f2d69636f6e2e737667">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/postman/postman-original.svg">
                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg">
                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg">
-                    <img src="https://camo.githubusercontent.com/f32e9cca1f0df0138a8f536217daa54ad21b6913642422f32e3c5c623f3a06b9/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667">
-                    <img src="https://camo.githubusercontent.com/a13ca5b988ada41839ebe4f88455e63419a1b56fcb5eda207794cd1649a61d2c/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667">
-                    <img src="https://camo.githubusercontent.com/fcafa5ebc1f5f789ae7d012a3ecd8fe7bda49516591caf7c37698f764165d880/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667"">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/spring/spring-original.svg">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/git/git-original.svg">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/figma/figma-original.svg">
                 </div>
             </div>
         </section>
@@ -221,35 +221,117 @@ export const aboutTemplate = `
 
 export const portfolioTemplate = `
     <section class="portfolio">
-        <div class="portfolio-content">
-            <h1>My <span>Projects</span></h1>
-            <div class="project-display">
-                <div class="project">
-                    <h2 class="gradient-text">Neutron</h2>
-                    <button class="read-more-btn">Read more</button>
-                    <button class="repository-btn">Repository<i class="fa-brands fa-github"></i></button>
+            <div class="portfolio-content">
+                <h1>My <span>Projects</span></h1>
+                <div class="project-display">
+                    <div class="project">
+                        <h2 class="gradient-text">Neutron</h2>
+                        <button class="read-more-btn" id="project1">Read more</button>
+                        <a class="repository-btn">Repository<i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div class="project empty">
+                        <h2>Empty</h2>
+                    </div>
+                    <div class="project empty">
+                        <h2>Empty</h2>
+                    </div>
+                    <div class="project empty">
+                        <h2>Empty</h2>
+                    </div>
                 </div>
-                <div class="project empty">
-                    <h2>Empty</h2>
-                </div>
-                <div class="project empty">
-                    <h2>Empty</h2>
-                </div>
-                <div class="project empty">
-                    <h2>Empty</h2>
-                </div>
-            </div>
+    
+                <div class="project-container">
+                    <h2 class="project-title" id="project1">Neutron</h2>
+                    <hr>
+                    <p>Neutron is a streamlined note-taking app designed with simplicity and modern aesthetics in mind. Its minimalist interface aims to provide a calm and focused environment for effortless note creation.</p>
+                    <img class="project-image" src="img/folder-view-light.png" alt="">
+                    <article>
+                        <b>On the Notes tab, the user has several options:</b>
+                        <ul>
+                            <li>Use the search bar to find specific folders and notes.</li>
+                            <li>Create new folders by clicking the folder icon.</li>
+                            <li>Create new notes by clicking the file icon.</li>
+                            <li>Click the bookmark icon to view all bookmarked notes.</li>
+                            <li>Click the home icon to return to the root or home folder of the Notes tab.</li>
+                            <li>Additionally, the Notes tab serves as the main area for accessing and managing notes.</li>
+                        </ul>
+                    </article>
 
-            <div class="project-container">
-                <h2>Neutron</h2>
+                    <img class="project-image" src="img/editor-view-light.png" alt="">
+
+                    <article>
+                        <b>Editor Features:</b>
+                        <ul>
+                            <li>Bold, italic, underline, strikethrough</li>
+                            <li>Links (customizable text)</li>
+                            <li>Align text left, center, and right</li>
+                            <li>Bullet and numbered lists</li>
+                            <li>Color text</li>
+                            <li>Remove formatting</li>
+                            <li>Undo/redo</li>
+                            <li>Headings 1 through 6</li>
+                            <li>Insert horizontal line</li>
+                            <li>Save current note</li>
+                            <li>Delete current note</li>
+                            <li>Create new note (saves the previous note)</li>
+                            <li>Show details about current note</li>
+                            <li>Create Quote block</li>
+                            <li>Create Important block</li>
+                            <li>Create Date block</li>
+                            <li>Use the search function</li>
+                            <li>Load a template</li>
+                            <li>Create a flashcard deck</li>
+                          </ul>                          
+                    </article>
+                    <article class="tech-stack-info">
+                        <h3>Tech stack</h3>
+                        <hr>
+                        <div class="stack">
+                            <span>Frontend</span>
+                            <div>
+                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/javascript/javascript-original.svg" alt="Javascript image">
+                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/html5/html5-original-wordmark.svg" alt="HTML image">
+                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/css3/css3-original-wordmark.svg" alt="CSS image">
+                            </div>
+                        </div>
+                        <div class="stack">
+                            <span>Backend</span>
+                            <div>
+                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/python/python-original-wordmark.svg" alt="Python image">
+                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/fastapi/fastapi-original-wordmark.svg" alt="FastApi image">
+                            </div>
+                        </div>
+                        <div class="stack">
+                            <span>Persistence</span>
+                            <div>
+                                Json files and Text files
+                            </div>
+                        </div>
+                    </article>
+                    <a class="find-out-more-btn" href="https://github.com/VeronGoggans/Note-taking-app">Find out more!</a>
+                </div>
             </div>
-        </div>
-        
-    </section>
+            
+        </section>
 `
 
 export const contactTemplate = `
-
+    <section class="contact">
+        <h1>Contact <span>me</span></h1>
+        <p>Feel free to contact me on the gmail address shown below.</p>
+        <hr>
+        <div class="gmail-container">
+            <img src="img/gmail-image.webp" alt="Gmail image">
+            <div>
+                <h2 class="get-in-touch">Get in touch</h2>
+                <div class="my-email-container">
+                    <i class="fa-regular fa-envelope"></i>
+                    <b>Email</b>
+                    <p>veron.goggans1@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
 `
 
 export const templates = {

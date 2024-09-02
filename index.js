@@ -9,6 +9,27 @@ const main = document.querySelector('main');
 
 
 
+function scrollToProject(projectTitle) {
+    projectTitle.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+
+
+function prepView(viewId) {
+    if (viewId === 'portfolio') {
+        const readMoreButtons = document.querySelectorAll('.project .read-more-btn');
+        const projectTitles = document.querySelectorAll('.project-container .project-title');
+
+        for (let i = 0; i < readMoreButtons.length; i++) {
+            readMoreButtons[i].addEventListener('click', () => {
+                scrollToProject(projectTitles[i])
+            })    
+        }
+    }
+}
+
+
+
 // Adding eventlisteners
 logo.addEventListener('click', () => {loadTemplate('home')});
 navLinks.forEach(link => {
@@ -17,10 +38,11 @@ navLinks.forEach(link => {
 
         const anchor = event.target.closest('a[data-view]')
         if (anchor) {
-            loadTemplate(
-                anchor.getAttribute('data-view'),
-                event.target
-            );
+            // laoding the view template
+            loadTemplate(anchor.getAttribute('data-view'), event.target);
+
+            // initalizing any eventlisteners
+            prepView(anchor.getAttribute('data-view'))
         }
     }
 )})
