@@ -11,7 +11,7 @@
 
 .home-content h1 {
     font-size: 56px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .home-content h3 {
@@ -48,11 +48,13 @@
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
+    transition: 200ms;
 }
 
 .btn-box a:hover {
     color: white;
-    border-color: var(--soft-black);
+    border-color: white;
+    scale: 1.5;
 }
 
 .btn-box a::before {

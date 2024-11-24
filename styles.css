@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins
 }
 
 ::selection {
@@ -29,7 +29,7 @@
 .portfolio::-webkit-scrollbar,
 .contact::-webkit-scrollbar {
     background-color: transparent;
-    width: 5px;
+    width: 10px;
 }
 
 .about::-webkit-scrollbar-thumb,

@@ -1,4 +1,6 @@
-export const HelloWorld = 'Hello world'
+import { timeAgo } from "./util.js";
+
+
 
 export const homeTemplate = `
     <section class="home">
@@ -8,7 +10,7 @@ export const homeTemplate = `
             <p>Currently studying at Hogeschool Utrecht 
             for my Bachelors Degree Backend Developer</p>
             <div class="btn-box">
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/veron-goggans-48331b19b/"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href="https://github.com/VeronGoggans/"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
@@ -65,7 +67,7 @@ export const aboutTemplate = `
                     </div>
 
                     <div class="container left-container">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/postgresql/postgresql-plain.svg">
                         <div class="text-box">
                             <h2>Posgressql</h2>
                             <small>2022 - Now</small>
@@ -145,7 +147,7 @@ export const aboutTemplate = `
                     </div>
 
                     <div class="container right-container">
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/mongodb/mongodb-plain.svg">
                         <div class="text-box">
                             <h2>MongoDB</h2>
                             <small>2023 - Now</small>
@@ -184,34 +186,44 @@ export const aboutTemplate = `
                     </tr>
                     <tr>
                         <td>Python</td>
-                        <td>2 years</td>
+                        <td>${timeAgo("2022-09-01")}</td>
                     </tr>
                     <tr>
                         <td>Java</td>
-                        <td>1.5 years</td>
+                        <td>${timeAgo("2023-02-01")}</td>
                     </tr>
                     <tr>
                         <td>Javascript</td>
-                        <td>1.5 years</td>
+                        <td>${timeAgo("2023-02-01")}</td>
                     </tr>
                     <tr>
                         <td>HTML</td>
-                        <td>2 years</td>
+                        <td>${timeAgo("2023-02-01")}</td>
                     </tr>
                     <tr>
                         <td>CSS</td>
-                        <td>2 years</td>
+                        <td>${timeAgo("2023-02-01")}</td>
                     </tr>
                 </table>
 
-                <h3 class="experience-heading">Experience working <span>with</span></h3>
-
+                
+                <h3 class="experience-heading">Experience working with <span>databases</span></h3>
                 <div class="experience-container">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/postman/postman-original.svg">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/spring/spring-original.svg">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/postgresql/postgresql-plain.svg">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/sqlite/sqlite-original.svg">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/mongodb/mongodb-plain.svg">
+                </div>
+                <h3 class="experience-heading">Experience working with <span>web frameworks</span></h3>
+                <div class="experience-container">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/spring/spring-original-wordmark.svg">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/express/express-original-wordmark.svg">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/fastapi/fastapi-original-wordmark.svg">
+                </div>
+
+                <h3 class="experience-heading">Experience working with other <span>technologies</span></h3>
+                <div class="experience-container">
                     <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/git/git-original.svg">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/postman/postman-original.svg">
                     <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/figma/figma-original.svg">
                 </div>
             </div>
@@ -225,12 +237,12 @@ export const portfolioTemplate = `
                 <h1>My <span>Projects</span></h1>
                 <div class="project-display">
                     <div class="project">
-                        <h2 class="gradient-text">Neutron</h2>
+                        <h2>Photon</h2>
                         <button class="read-more-btn" id="project1">Read more</button>
-                        <a class="repository-btn">Repository<i class="fa-brands fa-github"></i></a>
                     </div>
-                    <div class="project empty">
-                        <h2>Empty</h2>
+                    <div class="project">
+                        <h2>SnipVault</h2>
+                        <button class="read-more-btn" id="project2">Read more</button>
                     </div>
                     <div class="project empty">
                         <h2>Empty</h2>
@@ -241,9 +253,9 @@ export const portfolioTemplate = `
                 </div>
     
                 <div class="project-container">
-                    <h2 class="project-title" id="project1">Neutron</h2>
+                    <h2 class="project-title" id="project1">Photon</h2>
                     <hr>
-                    <p>Neutron is a streamlined note-taking app designed with simplicity and modern aesthetics in mind. Its minimalist interface aims to provide a calm and focused environment for effortless note creation.</p>
+                    <p>Photon is a streamlined note taking app designed with simplicity and modern aesthetics in mind. It's minimalist interface aims to provide a calm and focused environment for an effortless note taking experience.</p>
                     <img class="project-image" src="img/folder-view-light.png" alt="">
                     <article>
                         <b>On the Notes tab, the user has several options:</b>
@@ -262,26 +274,16 @@ export const portfolioTemplate = `
                     <article>
                         <b>Editor Features:</b>
                         <ul>
-                            <li>Bold, italic, underline, strikethrough</li>
-                            <li>Links (customizable text)</li>
-                            <li>Align text left, center, and right</li>
-                            <li>Bullet and numbered lists</li>
-                            <li>Color text</li>
+                            <li>Rich text editing e.g bold, italic, underline, strikethrough</li>
+                            <li>Links (with custom text)</li>
+                            <li>Align text left, right and center</li>
+                            <li>Bullet, numbered lists and check lists</li>
+                            <li>Colorize text</li>
                             <li>Remove formatting</li>
                             <li>Undo/redo</li>
-                            <li>Headings 1 through 6</li>
-                            <li>Insert horizontal line</li>
-                            <li>Save current note</li>
-                            <li>Delete current note</li>
-                            <li>Create new note (saves the previous note)</li>
-                            <li>Show details about current note</li>
-                            <li>Create Quote block</li>
-                            <li>Create Important block</li>
-                            <li>Create Date block</li>
-                            <li>Use the search function</li>
-                            <li>Load a template</li>
-                            <li>Create a flashcard deck</li>
-                          </ul>                          
+                            <li>Headings 1 through 4</li>
+                          </ul>
+                         
                     </article>
                     <article class="tech-stack-info">
                         <h3>Tech stack</h3>
@@ -304,7 +306,67 @@ export const portfolioTemplate = `
                         <div class="stack">
                             <span>Persistence</span>
                             <div>
-                                Json files and Text files
+                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/sqlite/sqlite-original.svg" alt="Sqlite image">
+                            </div>
+                        </div>
+                    </article>
+                    <a class="find-out-more-btn" href="https://github.com/VeronGoggans/Note-taking-app">Find out more!</a>
+                </div>
+
+                <div class="project-container">
+                    <h2 class="project-title" id="project2">SniptVault</h2>
+                    <hr>
+                    <p>Photon is a streamlined note taking app designed with simplicity and modern aesthetics in mind. It's minimalist interface aims to provide a calm and focused environment for an effortless note taking experience.</p>
+                    <img class="project-image" src="img/folder-view-light.png" alt="">
+                    <article>
+                        <b>On the Notes tab, the user has several options:</b>
+                        <ul>
+                            <li>Use the search bar to find specific folders and notes.</li>
+                            <li>Create new folders by clicking the folder icon.</li>
+                            <li>Create new notes by clicking the file icon.</li>
+                            <li>Click the bookmark icon to view all bookmarked notes.</li>
+                            <li>Click the home icon to return to the root or home folder of the Notes tab.</li>
+                            <li>Additionally, the Notes tab serves as the main area for accessing and managing notes.</li>
+                        </ul>
+                    </article>
+
+                    <img class="project-image" src="img/editor-view-light.png" alt="">
+
+                    <article>
+                        <b>Editor Features:</b>
+                        <ul>
+                            <li>Rich text editing e.g bold, italic, underline, strikethrough</li>
+                            <li>Links (with custom text)</li>
+                            <li>Align text left, right and center</li>
+                            <li>Bullet, numbered lists and check lists</li>
+                            <li>Colorize text</li>
+                            <li>Remove formatting</li>
+                            <li>Undo/redo</li>
+                            <li>Headings 1 through 4</li>
+                          </ul>
+                         
+                    </article>
+                    <article class="tech-stack-info">
+                        <h3>Tech stack</h3>
+                        <hr>
+                        <div class="stack">
+                            <span>Frontend</span>
+                            <div>
+                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/javascript/javascript-original.svg" alt="Javascript image">
+                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/html5/html5-original-wordmark.svg" alt="HTML image">
+                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/css3/css3-original-wordmark.svg" alt="CSS image">
+                            </div>
+                        </div>
+                        <div class="stack">
+                            <span>Backend</span>
+                            <div>
+                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/express/express-original-wordmark.svg" alt="Express image">
+                            </div>
+                        </div>
+                        <div class="stack">
+                            <span>Persistence</span>
+                            <div>
+                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/sqlite/sqlite-original.svg" alt="Sqlite image">
                             </div>
                         </div>
                     </article>

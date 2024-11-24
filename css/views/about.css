@@ -15,6 +15,7 @@
 
 .about-content h1 {
     font-size: 56px;
+    font-weight: 500;
     color: var(--soft-black);
 }
 
@@ -337,7 +338,8 @@
 
 .experience-container {
     position: relative;
-    padding: 50px 20px;
+    padding: 0px 20px;
+    padding-top: 50px;
 }
 
 .experience-container img {
