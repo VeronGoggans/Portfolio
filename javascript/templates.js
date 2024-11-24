@@ -166,15 +166,7 @@ export const aboutTemplate = `
                         </div>
                     </div>
 
-                    <div class="milestone right-container">
-                        <div class="dot"></div>
-                        <div class="text-box">
-                            <h2>Milestone</h2>
-                            <small>Summer of 2024</small>
-                            <h2 class="title">Neutron 1.0 Release</h2>
-                            <span class="right-container-arrow"></span>
-                        </div>
-                    </div>
+                    
 
                 </div>
                 <h3 class="skills-heading">Programming <span>Languages</span></h3>
@@ -255,24 +247,27 @@ export const portfolioTemplate = `
                 <div class="project-container">
                     <h2 class="project-title" id="project1">Photon</h2>
                     <hr>
-                    <p>Photon is a streamlined note taking app designed with simplicity and modern aesthetics in mind. It's minimalist interface aims to provide a calm and focused environment for an effortless note taking experience.</p>
-                    <img class="project-image" src="img/folder-view-light.png" alt="">
+                    <p>Photon is a streamlined note taking app designed with simplicity and modern aesthetics in mind. It's minimalist interface aims to provide a calm and focused environment for an effortless note taking experience. 
+                        <br>
+                        <br>
+                        <span class="disclaimer">Photon is still in development and is not a finished product.</span
+                    </p>
+                    <img class="project-image" src="img/photon/folder.png" alt="Photon folder image">
                     <article>
-                        <b>On the Notes tab, the user has several options:</b>
-                        <ul>
-                            <li>Use the search bar to find specific folders and notes.</li>
-                            <li>Create new folders by clicking the folder icon.</li>
-                            <li>Create new notes by clicking the file icon.</li>
-                            <li>Click the bookmark icon to view all bookmarked notes.</li>
-                            <li>Click the home icon to return to the root or home folder of the Notes tab.</li>
-                            <li>Additionally, the Notes tab serves as the main area for accessing and managing notes.</li>
-                        </ul>
+                        <b>Notes tab</b>
+                        <p>
+                            In the image above, you'll see the Notes tab, currently open inside a folder called 'Exam 1.' Here, users can add both folders and notes. Folders can be assigned a specific color or left with the default color, and notes can be bookmarked, which will move them to the top of the list. 
+                            <br>
+                            <br>
+                            At the top, there's a search bar where users can look up any note or folder. The search bar includes prefix autocomplete, offering suggestions as you type.
+                        </p>
                     </article>
 
-                    <img class="project-image" src="img/editor-view-light.png" alt="">
+                    <img class="project-image" src="img/photon/editor.png" alt="Photon editor image">
 
                     <article>
-                        <b>Editor Features:</b>
+                        <b>Editor tab</b>
+                        <p>The Photon editor support full rich text support with common features like</p>
                         <ul>
                             <li>Rich text editing e.g bold, italic, underline, strikethrough</li>
                             <li>Links (with custom text)</li>
@@ -283,6 +278,8 @@ export const portfolioTemplate = `
                             <li>Undo/redo</li>
                             <li>Headings 1 through 4</li>
                           </ul>
+                        <p>Among other things like loading in templates, creating flashcards from your notes and referencing other notes. </p>
+                        
                          
                     </article>
                     <article class="tech-stack-info">
@@ -290,24 +287,15 @@ export const portfolioTemplate = `
                         <hr>
                         <div class="stack">
                             <span>Frontend</span>
-                            <div>
-                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/javascript/javascript-original.svg" alt="Javascript image">
-                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/html5/html5-original-wordmark.svg" alt="HTML image">
-                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/css3/css3-original-wordmark.svg" alt="CSS image">
-                            </div>
+                            <div>Javascript, html and css</div>
                         </div>
                         <div class="stack">
                             <span>Backend</span>
-                            <div>
-                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/python/python-original-wordmark.svg" alt="Python image">
-                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/fastapi/fastapi-original-wordmark.svg" alt="FastApi image">
-                            </div>
+                            <div>Python and FastAPI</div>
                         </div>
                         <div class="stack">
                             <span>Persistence</span>
-                            <div>
-                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/sqlite/sqlite-original.svg" alt="Sqlite image">
-                            </div>
+                            <div>Sqlite</div>
                         </div>
                     </article>
                     <a class="find-out-more-btn" href="https://github.com/VeronGoggans/Note-taking-app">Find out more!</a>
@@ -316,61 +304,49 @@ export const portfolioTemplate = `
                 <div class="project-container">
                     <h2 class="project-title" id="project2">SniptVault</h2>
                     <hr>
-                    <p>Photon is a streamlined note taking app designed with simplicity and modern aesthetics in mind. It's minimalist interface aims to provide a calm and focused environment for an effortless note taking experience.</p>
-                    <img class="project-image" src="img/folder-view-light.png" alt="">
+                    <p>Snipvault is an app designed to store all your code snippets in one convenient place. You can easily tag each snippet, making categorized searches quick and simple. With its minimalist design, Snipvault aims to provide a smooth and enjoyable user experience.
+                        <br>
+                        <br>
+                        <span class="disclaimer">SnipVault is still in development and is not a finished product.</span
+                    </p>
+                    <img class="project-image" src="img/snipvault/search.png" alt="SnipVault search image">
                     <article>
-                        <b>On the Notes tab, the user has several options:</b>
-                        <ul>
-                            <li>Use the search bar to find specific folders and notes.</li>
-                            <li>Create new folders by clicking the folder icon.</li>
-                            <li>Create new notes by clicking the file icon.</li>
-                            <li>Click the bookmark icon to view all bookmarked notes.</li>
-                            <li>Click the home icon to return to the root or home folder of the Notes tab.</li>
-                            <li>Additionally, the Notes tab serves as the main area for accessing and managing notes.</li>
-                        </ul>
+                        <b>The search page</b>
+                        <p>As mentioned above, SnipVault allows users to add an unlimited number of tags to any given snippet. In the image above, a search is performed using the tags <b>#css</b> and <b>#animation</b>. This query will return all snippets that include at least those two tags.
+                            <br>
+                            <br>
+                            You can also search for snippets by their name without using the # symbol. The name doesn’t have to be an exact match; for example, a search like <b>"css animation"</b> will return all snippets containing those words in it's name.
+                        </p>
                     </article>
 
-                    <img class="project-image" src="img/editor-view-light.png" alt="">
+                    <img class="project-image" src="img/snipvault/snippet.png" alt="SnipVault snippet image">
 
                     <article>
-                        <b>Editor Features:</b>
-                        <ul>
-                            <li>Rich text editing e.g bold, italic, underline, strikethrough</li>
-                            <li>Links (with custom text)</li>
-                            <li>Align text left, right and center</li>
-                            <li>Bullet, numbered lists and check lists</li>
-                            <li>Colorize text</li>
-                            <li>Remove formatting</li>
-                            <li>Undo/redo</li>
-                            <li>Headings 1 through 4</li>
-                          </ul>
-                         
+                        <b>Snippet page</b>
+                        <p>
+                            On the snippet page, you can paste your snippet into a code editor-style environment with several options. You can copy the snippet by clicking the copy button, expand the editor with the expand button, or add multiple tabs by clicking the plus button next to the initial tab's name. 
+                            <br>
+                            <br>
+                            Below the snippet section, you can add tags to categorize the snippet. Once you're finished, click the save button in the upper right corner.
+                        </p>
                     </article>
                     <article class="tech-stack-info">
                         <h3>Tech stack</h3>
                         <hr>
                         <div class="stack">
                             <span>Frontend</span>
-                            <div>
-                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/javascript/javascript-original.svg" alt="Javascript image">
-                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/html5/html5-original-wordmark.svg" alt="HTML image">
-                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/css3/css3-original-wordmark.svg" alt="CSS image">
-                            </div>
+                            <div>Javascript, html and css</div>
                         </div>
                         <div class="stack">
                             <span>Backend</span>
-                            <div>
-                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/express/express-original-wordmark.svg" alt="Express image">
-                            </div>
+                            <div>Express js</div>
                         </div>
                         <div class="stack">
                             <span>Persistence</span>
-                            <div>
-                                <img class="technolegy-image" src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/sqlite/sqlite-original.svg" alt="Sqlite image">
-                            </div>
+                            <div>Sqlite</div>
                         </div>
                     </article>
-                    <a class="find-out-more-btn" href="https://github.com/VeronGoggans/Note-taking-app">Find out more!</a>
+                    <a class="find-out-more-btn" href="https://github.com/VeronGoggans/SnipVault">Find out more!</a>
                 </div>
             </div>
             
