@@ -92,7 +92,7 @@ export const aboutTemplate = `
                             <h2>HTML</h2>
                             <small>2022 - Now</small>
                             <p> HTML was introduced in both my first and second years of school, 
-                                though it was never the main focus. I truly became comfortable with HTML while developing my note-taking app, Neutron.
+                                though it was never the main focus. I truly became comfortable with HTML while developing my note-taking app, Photon.
                                  </p>
                             <span class="left-container-arrow"></span>
                         </div>
@@ -103,7 +103,7 @@ export const aboutTemplate = `
                         <div class="text-box">
                             <h2>CSS</h2>
                             <small>2022 - Now</small>
-                            <p>CSS was also not a major focus in school, so I became comfortable with it primarily during the development of Neutron. This project provided the practical experience I needed to enhance my CSS skills.</p>
+                            <p>CSS was also not a major focus in school, so I became comfortable with it primarily during the development of Photon. This project provided the practical experience I needed to enhance my CSS skills.</p>
                             <span class="right-container-arrow"></span>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ export const aboutTemplate = `
                         <div class="text-box">
                             <h2>Javascript</h2>
                             <small>2022 - Now</small>
-                            <p>Javascript is another language that I got a good grasp on during development of Neutron. <br><br>
+                            <p>Javascript is another language that I got a good grasp on during development of Photon. <br><br>
                                 I learned frondend paradigms like 
                                 <ul>
                                     <li>MVC (Modal, View, Controller)</li>
@@ -166,6 +166,46 @@ export const aboutTemplate = `
                         </div>
                     </div>
 
+                    <div class="container right-container">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/rabbitmq/rabbitmq-original.svg">
+                        <div class="text-box">
+                            <h2>RabbitMQ</h2>
+                            <small>2024 - Now</small>
+                            <p>In my third year of school, I was introduced to microservice architecture, where RabbitMQ served as the messaging bridge to facilitate communication between various microservices. This experience provided me with a solid understanding of how distributed systems operate and how messaging queues can enhance scalability and decoupling in software design.</p>
+                            <span class="right-container-arrow"></span>
+                        </div>
+                    </div>
+
+                    <div class="container left-container">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/sqlite/sqlite-original.svg">
+                        <div class="text-box">
+                            <h2>SQLite</h2>
+                            <small>2024 - Now</small>
+                            <p>During the development of Photon, I transitioned from using JSON/text files for storage to SQLite. This change was driven by both the learning opportunity it provided and the fact that SQLite offers greater reliability and is less error-prone compared to managing data with text files.</p>
+                            <span class="left-container-arrow"></span>
+                        </div>
+                    </div>
+
+                    <div class="container right-container">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/express/express-original.svg">
+                        <div class="text-box">
+                            <h2>Express js</h2>
+                            <small>2024 - Now</small>
+                            <p>During the development of SnipVault, I chose to use Express.js to expand my knowledge of widely-used backend technologies. An added benefit of this decision was that it allowed me to write the entire application using only JavaScript, streamlining development and enhancing my full-stack development skills.</p>
+                            <span class="right-container-arrow"></span>
+                        </div>
+                    </div>
+
+                    <div class="container left-container">
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/cassandra/cassandra-original.svg">
+                        <div class="text-box">
+                            <h2>Cassandra</h2>
+                            <small>2024 - Now</small>
+                            <p>While learning about microservice architecture, my studies also encouraged me to explore NoSQL databases. I decided to work with Cassandra DB, a wide-column store, to deepen my understanding of NoSQL solutions and their suitability for handling large-scale data.</p>
+                            <span class="left-container-arrow"></span>
+                        </div>
+                    </div>
+
                     
 
                 </div>
@@ -214,6 +254,8 @@ export const aboutTemplate = `
 
                 <h3 class="experience-heading">Experience working with other <span>technologies</span></h3>
                 <div class="experience-container">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/docker/docker-original-wordmark.svg">
+                    <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/maven/maven-original-wordmark.svg">
                     <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/git/git-original.svg">
                     <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/postman/postman-original.svg">
                     <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/figma/figma-original.svg">
@@ -267,13 +309,13 @@ export const portfolioTemplate = `
 
                     <article>
                         <b>Editor tab</b>
-                        <p>The Photon editor support full rich text support with common features like</p>
+                        <p>The Photon editor supports full rich text support with common features like</p>
                         <ul>
-                            <li>Rich text editing e.g bold, italic, underline, strikethrough</li>
+                            <li>Rich text editing e.g. bold, italic, underline, strikethrough</li>
                             <li>Links (with custom text)</li>
                             <li>Align text left, right and center</li>
-                            <li>Bullet, numbered lists and check lists</li>
-                            <li>Colorize text</li>
+                            <li>Bullet, numbered and check lists</li>
+                            <li>Colorized text</li>
                             <li>Remove formatting</li>
                             <li>Undo/redo</li>
                             <li>Headings 1 through 4</li>
@@ -298,7 +340,7 @@ export const portfolioTemplate = `
                             <div>Sqlite</div>
                         </div>
                     </article>
-                    <a class="find-out-more-btn" href="https://github.com/VeronGoggans/Note-taking-app">Find out more!</a>
+                    <a class="find-out-more-btn" href="https://github.com/VeronGoggans/Note-taking-app/tree/sqlite-persistence">Find out more!</a>
                 </div>
 
                 <div class="project-container">
@@ -365,7 +407,7 @@ export const contactTemplate = `
                 <div class="my-email-container">
                     <i class="fa-regular fa-envelope"></i>
                     <b>Email</b>
-                    <p>veron.goggans1@gmail.com</p>
+                    <p>j.s.v.goggans@gmail.com</p>
                 </div>
             </div>
         </div>
